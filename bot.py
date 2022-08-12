@@ -54,7 +54,7 @@ requestRegex = "#[rR][eE][qQ][uU][eE][sS][tT] "
 
 """Handlers"""
 
-MAMI_PIC ="https://te.legra.ph/file/dc9325a322b1c8981eaf7.jpg"
+MAMI_PIC ="https://te.legra.ph/file/a9acdde9798a2fb4b9869.jpg"
 
 # Start & Help Handler
 @app.on_message(filters.private & filters.command(["start", "help"]))
@@ -67,7 +67,7 @@ async def startHandler(bot:Update, msg:Message):
             [
                     [InlineKeyboardButton(text="Add me to your Group", url=f"https://telegram.me/{botInfo.username}?startgroup=true")],
                     [
-                    InlineKeyboardButton(text="★IShikki★", url="https://t.me/ishikki_akabane"),
+                    InlineKeyboardButton(text="★Kazuma Clan★", url="https://t.me/kazumaclanxd"),
                     InlineKeyboardButton(text="★Support★", url="https://t.me/suppporttxd")
                     ],
             ]
