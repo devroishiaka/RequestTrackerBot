@@ -61,7 +61,7 @@ MAMI_PIC ="https://te.legra.ph/file/dc9325a322b1c8981eaf7.jpg"
 async def startHandler(bot:Update, msg:Message):
     botInfo = await bot.get_me()
     await msg.reply_photo(
-        MAMI_PIC, caption="<b>Hii, I am Mami Nanami, A Request Tracker Bot created by [IShikki Akabane](https://t.me/ishikki_akabane).\nAdd me in your Group & Channel now to use my features.\n\nHow to Use me?</b>\n🔹. Add me to your Group & Channel.\n🔹. Make me admin in both Channel & Group.\n🔹. Give permission to Post , Edit & Delete Messages.\n🔹. Now send Group ID & Channel ID in this format <code>/add GroupID ChannelID</code>.\nNow Bot is all set to go.\n\n<b>If you encounter any issues related to this bot or having any trouble in setting them, then please visit @suppporttxd </b>",
+        MAMI_PIC, caption="<b>Hii, I am Mami Nanami, A Request Tracker Bot created by @IShikki_Akabane.\nAdd me in your Group & Channel now to use my features.\n\nHow to Use me?</b>\n🔹. Add me to your Group & Channel.\n🔹. Make me admin in both Channel & Group.\n🔹. Give permission to Post , Edit & Delete Messages.\n🔹. Now send Group ID & Channel ID in this format <code>/add GroupID ChannelID</code>.\nNow Bot is all set to go.\n\n<b>If you encounter any issues related to this bot or having any trouble in setting them, then please visit @suppporttxd </b>",
         parse_mode = "html",
         reply_markup = InlineKeyboardMarkup(
             [
